@@ -14,4 +14,4 @@ class Post(models.Model):
         return self.titulo
 
     class Meta:
-        db_table = 'blog_db_post'
+        db_table = 'blog_post'
